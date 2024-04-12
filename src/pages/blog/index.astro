@@ -9,7 +9,7 @@ import PostCardLarge from "@components/PostCard/PostCardLarge.astro";
 // utils
 import { getAllPosts } from "@js/blogUtils";
 
-const posts = await getAllPosts();
+const posts = await getPostsListingPublic();
 ---
 
 <BaseLayout
